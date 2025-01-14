@@ -4,7 +4,6 @@
 ![vehicleweb](https://github.com/user-attachments/assets/ef6ebc86-b5a2-4d3b-aab4-c23b9abdc8ac)
 
 
-## continued ##
 
 ![vehicleweb1](https://github.com/user-attachments/assets/d2f223ad-ea3f-4daa-bd19-85b2f12a6586)
 
@@ -22,7 +21,7 @@ The frontend consists of the following sections and features:
    - **Navigation Bar**: Provides links to key sections of the website, including:
      - **Home**: The homepage of the system.
      - **Features**: Overview of system features.
-     - **Contact**: Contact details for inquiries and support.
+     - **Contact**: Contact details for enquiries and support.
 
 ### 2. **Hero Section**
    - A welcome message with the tagline "Manage Your Parking Efficiently."

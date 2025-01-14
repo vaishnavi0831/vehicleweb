@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # outcome
 
 ![vehicleweb](https://github.com/user-attachments/assets/ef6ebc86-b5a2-4d3b-aab4-c23b9abdc8ac)

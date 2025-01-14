@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Parking Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #fdfdfd;
+            color: #333333;
+        }
+        header {
+            background-color: #f8fafc;
+            color: #2c3e50;
+            padding: 1.5rem 0;
+            text-align: center;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 0.75rem;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 2.5rem 1rem;
+            background: linear-gradient(135deg, #ecf0f1, #f5f7fa);
+            color: #2c3e50;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .features {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .feature {
+            flex: 1 1 calc(33.333% - 1rem);
+            background: #ffffff;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+        .feature h3 {
+            margin: 0 0 1rem;
+            color: #3498db;
+        }
+        .feature p {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .dammi-details {
+            margin-top: 1rem;
+            padding: 0.5rem;
+            background-color: #f5f7fa;
+            border: 1px solid #dfe4ea;
+            border-radius: 8px;
+        }
+        .dammi-details label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #3498db;
+        }
+        .dammi-details input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #dfe4ea;
+            border-radius: 4px;
+        }
+        #contact {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+        }
+        #contact h2 {
+            text-align: center;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        #contact p {
+            margin: 0.5rem 0;
+            color: #2c3e50;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #f8fafc;
+            color: #2c3e50;
+            border-top: 2px solid #e5e7eb;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vehicle Parking Management System</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <h1>Manage Your Parking Efficiently</h1>
+            <p>Your one-stop solution for smart parking management.</p>
+        </section>
+
+        <section id="features" class="features">
+            <div class="feature">
+                <h3>Real-Time Tracking</h3>
+                <p>Track available parking slots in real-time with ease.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure Payments</h3>
+                <p>Make secure and seamless payments for parking fees.</p>
+                <div class="dammi-details">
+                    <label for="paymentDetails">Store Payment Details:</label>
+                    <input type="text" id="paymentDetails" placeholder="Enter card or account details">
+                    <input type="text" id="nameOnCard" placeholder="Name on Card">
+                </div>
+            </div>
+            <div class="feature">
+                <h3>Smart Alerts</h3>
+                <p>Get instant notifications about parking availability.</p>
+            </div>
+            <div class="feature">
+                <h3>User-Friendly Dashboard</h3>
+                <p>Easily manage and monitor parking operations with an intuitive interface.</p>
+            </div>
+            <div class="feature">
+                <h3>Vehicle History</h3>
+                <p>Access a detailed log of parked vehicles for better management.</p>
+            </div>
+            <div class="feature">
+                <h3>Multi-Vehicle Support</h3>
+                <p>Handle different types of vehicles, from bikes to heavy-duty trucks.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@parkingmanagement.com</p>
+            <p>Phone: +91 7965381930</p>
+           
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Vehicle Parking Management System. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+        // Add JavaScript functionality here if needed
+        console.log("Website loaded successfully");
+    </script>
+</body>
+</html>
